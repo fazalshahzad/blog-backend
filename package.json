@@ -7,7 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": " NODE_ENV=development nodemon server.js",
     "prod": " NODE_ENV=production nodemon server.js",
-    "test1": " NODE_ENV=testing nodemon server.js"
+    "test1": " NODE_ENV=testing nodemon server.js",
+    "start": "node server.js"
   },
   "author": "Salman",
   "license": "ISC",
@@ -21,5 +22,14 @@
     "multer": "^1.4.5-lts.1",
     "nodemon": "^2.0.22",
     "stripe": "^10.17.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fazalshahzad/blog-backend.git"
+  },
+  "bugs": {
+    "url": "https://github.com/fazalshahzad/blog-backend/issues"
+  },
+  "homepage": "https://github.com/fazalshahzad/blog-backend#readme"
 }
