@@ -8,7 +8,7 @@
 // const checIfAdminAlreadyExsist = await UserManagementModel.findOne(
 //     {email:email}
 // )
-// if(checIfAdminAlreadyExsist && userPrivilage === 'Admin'){
+// if (checkIfAdminAlreadyExists && checkIfAdminAlreadyExists.userPrivilage === 'Admin'){
 //     return res.json({
 //         Message:`Admin Register Is Constraint`,
 //         Result:null,
